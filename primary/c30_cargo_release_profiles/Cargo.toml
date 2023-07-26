@@ -1,0 +1,20 @@
+[package]
+name = "c30_cargo_release_profiles"
+version = "0.1.0"
+authors = ["llsunlie <1578211151@qq.com>"]
+edition = "2021"
+description = "test."
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# opt-level 设置控制 Rust 会对代码进行何种程度的优化。
+# 这个配置的值从 0 到 3。
+# 越高的优化级别需要更多的时间编译
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,10 @@
+[package]
+name = "p1_mouse_clicks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+enigo = "0.1.2"
+device_query = "0.2.8"
